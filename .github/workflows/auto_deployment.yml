@@ -31,5 +31,5 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name : deploying using surge
-      run : surge ./ homeless-drop.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
+      run : surge ./ homeless-drop.surge.sh --token "c63e4cbbdf7ef0ed41a53f538396c52e"
         
